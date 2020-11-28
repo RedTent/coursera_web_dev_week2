@@ -1,0 +1,62 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  border:0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content{
+   clear: right;
+}
+
+
+.section_header {
+  float: right;
+  border: 1px solid black;
+  position: relative;
+  bottom: 1px;
+  left:1px;
+  font-weight: bold;
+  padding: 4px;
+  width:100px;
+  text-align: center;
+  
+}
+
+.box {
+  
+  border: 1px solid black;
+  position: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  background: grey;
+}
+
+
+
+
+#chicken {
+  background-color: pink;
+}
+
+#beef {
+  background-color: darkred;
+}
+
+#sushi {
+ background-color: orange;
+
+}
+
+
+/* media querie for outer-box*/
+.outer-box{
+  margin-top: 50px;
+  float: left;
+  width: 33%;
+}
