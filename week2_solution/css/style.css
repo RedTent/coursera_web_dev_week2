@@ -11,15 +11,17 @@ h1 {
 
 .content{
    clear: right;
+   padding: 8px;
 }
 
 
 .section_header {
   float: right;
+ 
   border: 1px solid black;
   position: relative;
   bottom: 1px;
-  left:1px;
+  left: 1px;
   font-weight: bold;
   padding: 4px;
   width:100px;
@@ -30,13 +32,19 @@ h1 {
 .box {
   
   border: 1px solid black;
-  position: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  
   width: 80%;
-  background: grey;
+  background: #ccc;
+  
 }
 
+.outer-box{
+
+}
+  
 
 
 
@@ -55,8 +63,31 @@ h1 {
 
 
 /* media querie for outer-box*/
-.outer-box{
-  margin-top: 50px;
-  float: left;
-  width: 33%;
+
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .outer-box{
+    width: 33%;
 }
+}
+
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .outer-box{
+  
+    width: 50%;
+  }
+  
+  #outer-sushi-box{
+    width: 100%;
+  }
+  
+  #sushi-box{
+    width: 90%;
+  }
+
+}
+
